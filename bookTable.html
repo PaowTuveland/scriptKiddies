@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GruppUppgift</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+	<body>
+      <div id="wrapper">
+ 		<header>
+          <img id="logo" src="https://joakimbengtson.se/prik-thai-logo.png" alt="Logotype för restaurang Prik Thai" title="Prik Thai">
+          <nav>
+            <a href="#">Hem</a>
+            <a href="#menu">Meny</a>
+            <a href="#contact">Kontakt</a>
+          </nav>
+		</header>
+        
+        <main id="bookingPage">
+          <section>
+            <h1>Boka bord</h1>
+            <form>
+              <label for="persons">Antal personer</label>
+              <select id="persons">
+                <option value="1">1</option> 
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+              </select>
+              <label for="date">Välj datum</label>
+              <input id="date" type="date">
+              <label for="time">Välj tid</label>
+              <input id="time" type="time">
+               <label for="firstName">För och efternamn</label>
+              <input id="firstName" type="text">
+               <label for="phoneNumber">Telefonnummer</label>
+              <input id="phoneNumber" type="phone">
+               <label for="email">E-post</label>
+              <input id="email" type="email">
+              <label for="message">Övrigt</label>
+              <textarea id="massage" placeholder="Eventuella allergier eller övriga önskemål"></textarea>
+            </form>
+                <button class="bookTableButton" type="submit">Skicka bokning</button>
+          </section>
+        </main>
+        
+        <footer>
+          <h2>Kontakt</h2>
+            <p>
+              Tel<br/>
+              08-749 30 30<br/><br/>
+              Adress<br/>
+              Nåttarövägen 125, 124 51 Bandhagen, Sverige
+            </p>
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8156.389371917478!2d18.0336493!3d59.2645227!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3e8fbcc937542292!2sPrik%20Thai!5e0!3m2!1ssv!2sse!4v1632320254994!5m2!1ssv!2ss" allowfullscreen="true" loading="lazy"></iframe>
+        </footer>
+      </div>
+  </body>
+</html>
